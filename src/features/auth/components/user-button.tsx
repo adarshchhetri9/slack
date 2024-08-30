@@ -28,7 +28,7 @@ const UserButton = () => {
 
   return (
     <div>
-      <DropdownMenu model={false}>
+      <DropdownMenu modal={false}>
         <DropdownMenuTrigger className="outline-none relative">
           <Avatar className="size-10 hover:opacity-75 transition">
             <AvatarImage alt="profile" src={image} />
